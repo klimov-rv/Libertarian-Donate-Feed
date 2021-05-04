@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>"Libertarian Donate Feed" Project</title>
+
+    <link rel="preload" href="_fonts.css" as="style"> <!-- не работает О_О -->
+    <link rel="stylesheet" type="text/css" href="_fonts.css">
+    <link rel="stylesheet" type="text/css" href="libs/common/normalise.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!-- <div id="page" class="light dark"> -->
+    <div id="page">
+        <div class="container filter-donates">
+            <div class="slct__group">
+                <div class="custom-slct">
+                    <select class="slct js-type-sort" name="order">
+                        <option value="default">По убыванию доната</option>
+                        <option value="value-desc">По убыванию доната</option>
+                        <option value="value-asc">По возрастанию доната</option>
+                        <option value="date-old">Сначала старые</option>
+                        <option value="date-new">Сначала новые</option>
+                        <option value="hidd">Только скрытые</option>
+                    </select>
+                </div>
+                <div id="toggle-theme">
+                    <i class="icon-toggle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container donates-wrap" id="js-col_to-display">
+            <div class="donates-col">
+                <div class="donates-container">
+                    <div class="donates__title">
+                        <span class="donates__author">
+                            Александр
+                        </span>
+                        <div class="donates__time">
+                            5 мин
+                        </div>
+                    </div>
+                    <div class="donates__price">
+                        <div class="price price-level_1" donate-level="#FF4E1D">
+                            20 000 ฿
+                        </div>
+                        <div class="price price-level_2" donate-level="#CEAD21">
+                            5 000 ₽
+                        </div>
+                        <div class="price price-level_3" donate-level="#B237C8">
+                            1 000 ₽
+                        </div>
+                        <div class="price price-level_4" donate-level="#4993BA">
+                            600 ₽
+                        </div>
+                        <div class="price price-level_5"
+                            donate-level="#EDEDED/#29363F">
+                            599 ₽
+                        </div>
+                    </div>
+                    <div class="donates__text">
+                        <p>
+                            Подскажите, стоит ли вложить финансы в лайткоин, в
+                            биткоин вкладывать сейчас немного опасно, или какая
+                            крипта помимо биткоина, а также какие есть
+                            популярные площадки для обмена, которым можно
+                            доверять? п.с. Спасибо за творчество!
+                        </p>
+                    </div>
+                    <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+                </div> 
+                <div class="donates-between-container with-text">
+                    Скажи про крепость
+                </div>  
+                <div class="donates-container">
+                    <div class="donates__title">
+                        <span class="donates__author">
+                            Александр
+                        </span>
+                        <div class="donates__time">
+                            5 мин
+                        </div>
+                    </div>
+                    <div class="donates__price">
+                        <div class="price price-level_1" donate-level="#FF4E1D">
+                            20 000 ₽
+                        </div>
+                    </div>
+                    <div class="donates__text">
+                        <p>
+                            Подскажите, стоит ли вложить финансы в лайткоин, в
+                            биткоин вкладывать сейчас немного опасно, или какая
+                            крипта помимо биткоина, а также какие есть
+                            популярные площадки для обмена, которым можно
+                            доверять? п.с. Спасибо за творчество!
+                        </p>
+                    </div>
+                    <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+                </div>
+                <div class="donates-between-container"> 
+                </div>
+                <div class="donates-container">
+                    <div class="donates__title">
+                        <span class="donates__author">
+                            Александр
+                        </span>
+                        <div class="donates__time">
+                            5 мин
+                        </div>
+                    </div>
+                    <div class="donates__price">
+                        <div class="price price-level_2" donate-level="#CEAD21">
+                            5 000 ₽
+                        </div>
+                    </div>
+                    <div class="donates__text">
+                        <p>
+                            Подскажите, стоит ли вложить финансы в лайткоин,
+                            в биткоин вкладывать сейчас немного опасно, или
+                            какая крипта помимо биткоина, а также какие есть
+                            популярные площадки для обмена, которым можно
+                            доверять? п.с. Спасибо за творчество!
+                        </p>
+                    </div>
+                    <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+                </div> 
+                <div class="donates-between-container"> 
+                </div>
+                <div class="donates-container">
+                    <div class="donates__title">
+                        <span class="donates__author">
+                            Александр
+                        </span>
+                        <div class="donates__time">
+                            5 мин
+                        </div>
+                    </div>
+                    <div class="donates__price">
+                        <div class="price price-level_3" donate-level="#B237C8">
+                            1 000 ₽
+                        </div>
+                    </div>
+                    <div class="donates__text">
+                        <p>
+                            Подскажите, стоит ли вложить финансы в
+                            лайткоин, в биткоин вкладывать сейчас
+                            немного опасно, или какая крипта помимо
+                            биткоина, а также какие есть популярные
+                            площадки для обмена, которым можно доверять?
+                            п.с. Спасибо за творчество!
+                        </p>
+                    </div>
+                    <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+                </div> 
+                <div class="donates-between-container"> 
+                </div>
+                <div class="donates-container">
+                    <div class="donates__title">
+                        <span class="donates__author">
+                            Александр
+                        </span>
+                        <div class="donates__time">
+                            5 мин
+                        </div>
+                    </div>
+                    <div class="donates__price">
+                        <div class="price price-level_4" donate-level="#4993BA">
+                            600 ₽
+                        </div>
+                    </div>
+                    <div class="donates__text">
+                        <p>
+                            Подскажите, стоит ли вложить финансы в
+                            лайткоин, в биткоин вкладывать сейчас
+                            немного опасно, или какая крипта помимо
+                            биткоина, а также какие есть популярные
+                            площадки для обмена, которым можно
+                            доверять? п.с. Спасибо за творчество!
+                        </p>
+                    </div>
+                    <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+                </div>
+                <div class="donates-between-container"> 
+                </div> 
+                <div class="donates-container">
+                    <div class="donates__title">
+                        <span class="donates__author">
+                            Александр
+                        </span>
+                        <div class="donates__time">
+                            5 мин
+                        </div>
+                    </div>
+                    <div class="donates__price">
+                        <div class="price price-level_5"
+                            donate-level="#EDEDED/#29363F">
+                            599 ₽
+                        </div>
+                    </div>
+                    <div class="donates__text">
+                        <p>
+                            Подскажите, стоит ли вложить финансы
+                            в лайткоин, в биткоин вкладывать
+                            сейчас немного опасно, или какая
+                            крипта помимо биткоина, а также
+                            какие есть популярные площадки для
+                            обмена, которым можно доверять? п.с.
+                            Спасибо за творчество!
+                        </p>
+                    </div>
+                    <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container donates-col_hidden" id="js-col_to-hide">
+
+            <div class="donates-container">
+                <div class="donates__title">
+                    <span class="donates__author">
+                        Александр
+                    </span>
+                    <div class="donates__time">
+                        5 мин
+                    </div>
+                </div>
+                <div class="donates__price">
+                    <div class="price price-level_1" donate-level="#FF4E1D">
+                        20 000 ₽
+                    </div>
+                    <div class="price price-level_2" donate-level="#CEAD21">
+                        5 000 ₽
+                    </div>
+                    <div class="price price-level_3" donate-level="#B237C8">
+                        1 000 ₽
+                    </div>
+                    <div class="price price-level_4" donate-level="#4993BA">
+                        600 ₽
+                    </div>
+                    <div class="price price-level_5"
+                        donate-level="#EDEDED/#29363F">
+                        599 ₽
+                    </div>
+                </div>
+                <div class="donates__text">
+                    <p>
+                        Подскажите, стоит ли вложить финансы в лайткоин, в
+                        биткоин вкладывать сейчас немного опасно, или какая
+                        крипта помимо биткоина, а также какие есть
+                        популярные площадки для обмена, которым можно
+                        доверять? п.с. Спасибо за творчество!
+                    </p>
+                </div>
+                <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+            </div>
+
+            <div class="donates-container">
+                <div class="donates__title">
+                    <span class="donates__author">
+                        Александр
+                    </span>
+                    <div class="donates__time donates__hide-show">
+                        5 мин
+                    </div>
+                </div>
+                <div class="donates__price">
+                    <div class="price price-level_2" donate-level="#CEAD21">
+                        5 000 ₽
+                    </div>
+                </div>
+                <div class="donates__text">
+                    <p>
+                        Подскажите, стоит ли вложить финансы в лайткоин, в
+                        биткоин вкладывать сейчас немного опасно, или какая
+                        крипта помимо биткоина, а также какие есть
+                        популярные площадки для обмена, которым можно
+                        доверять? п.с. Спасибо за творчество!
+                    </p>
+                </div>
+                <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+            </div>
+
+            <div class="donates-container">
+                <div class="donates__title">
+                    <span class="donates__author">
+                        Александр
+                    </span>
+                    <div class="donates__time">
+                        5 мин
+                    </div>
+                </div>
+                <div class="donates__price">
+                    <div class="price price-level_1" donate-level="#FF4E1D">
+                        20 000 ₽
+                    </div>
+                    <div class="price price-level_2" donate-level="#CEAD21">
+                        5 000 ₽
+                    </div>
+                    <div class="price price-level_3" donate-level="#B237C8">
+                        1 000 ₽
+                    </div>
+                    <div class="price price-level_4" donate-level="#4993BA">
+                        600 ₽
+                    </div>
+                    <div class="price price-level_5"
+                        donate-level="#EDEDED/#29363F">
+                        599 ₽
+                    </div>
+                </div>
+                <div class="donates__text">
+                    <p>
+                        Подскажите, стоит ли вложить финансы в лайткоин, в
+                        биткоин вкладывать сейчас немного опасно, или какая
+                        крипта помимо биткоина, а также какие есть
+                        популярные площадки для обмена, которым можно
+                        доверять? п.с. Спасибо за творчество!
+                    </p>
+                </div>
+                <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+            </div>
+ 
+            <div class="donates-container">
+                <div class="donates__title">
+                    <span class="donates__author">
+                        Александр
+                    </span>
+                    <div class="donates__time">
+                        5 мин
+                    </div>
+                </div>
+                <div class="donates__price">
+                    <div class="price price-level_1" donate-level="#FF4E1D">
+                        20 000 ₽
+                    </div>
+                    <div class="price price-level_2" donate-level="#CEAD21">
+                        5 000 ₽
+                    </div>
+                    <div class="price price-level_3" donate-level="#B237C8">
+                        1 000 ₽
+                    </div>
+                    <div class="price price-level_4" donate-level="#4993BA">
+                        600 ₽
+                    </div>
+                    <div class="price price-level_5"
+                        donate-level="#EDEDED/#29363F">
+                        599 ₽
+                    </div>
+                </div>
+                <div class="donates__text">
+                    <p>
+                        Подскажите, стоит ли вложить финансы в лайткоин, в
+                        биткоин вкладывать сейчас немного опасно, или какая
+                        крипта помимо биткоина, а также какие есть
+                        популярные площадки для обмена, которым можно
+                        доверять? п.с. Спасибо за творчество!
+                    </p>
+                </div>
+                <div class="move-to-hide-show"><span class="to-show">Не скрывать</span><span class="to-hide">Скрыть</span></div>
+            </div>
+        </div>
+    </div>  
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
